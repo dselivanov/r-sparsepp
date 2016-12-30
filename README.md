@@ -1,3 +1,6 @@
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/sparsepp)](https://cran.r-project.org/package=sparsepp)
+![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)
+
 ## Benchmarks
 
 Check original [sparsepp](https://github.com/greg7mdp/sparsepp) repository and [write-up](https://github.com/greg7mdp/sparsepp/blob/master/bench.md) which compares hashmap implementations.
