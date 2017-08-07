@@ -12,12 +12,12 @@ To use C++ code from `sparsepp`:
 
 1. In DESCRIPTION, add `LinkingTo: sparsepp`.
 1. In the C++ file, add:
-  `#include <sparsepp.h>`
+  `#include <sparsepp/spp.h>`
 
 ## Simple example
 
 ```c++
-#include <sparsepp.h>
+#include <sparsepp/spp.h>
 using spp::sparse_hash_map;
 sparse_hash_map<string, int> smap;
 ```
@@ -27,7 +27,7 @@ sparse_hash_map<string, int> smap;
 #include <iostream>
 #include <functional>
 #include <string>
-#include <sparsepp.h>
+#include <sparsepp/spp.h>
 
 using std::string;
 

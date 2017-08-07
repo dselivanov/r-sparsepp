@@ -1,3 +1,3 @@
 [submodule "inst/include"]
 	path = inst/include
-	url = https://github.com/greg7mdp/sparsepp.git
+	url = https://github.com/dselivanov/sparsepp.git

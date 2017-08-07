@@ -54,4 +54,22 @@ unlink(f)
 word_count(sample(letters, 100, T))
 }
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/greg7mdp/sparsepp}
+  \item \url{https://github.com/dselivanov/r-sparsepp}
+  \item Report bugs at \url{https://github.com/dselivanov/r-sparsepp/issues}
+}
 
+}
+\author{
+\strong{Maintainer}: Dmitriy Selivanov \email{selivanov.dmitriy@gmail.com}
+
+Authors:
+\itemize{
+  \item Gregory Popovitch \email{greg7mdp@gmail.com} [copyright holder]
+  \item Google Inc [copyright holder]
+}
+
+}

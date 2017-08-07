@@ -1,8 +1,8 @@
 Package: sparsepp
 Type: Package
 Title: 'Rcpp' Interface to 'sparsepp'
-Version: 0.1.2
-Date: 2017-01-22
+Version: 0.2.0
+Date: 2017-08-07
 Authors@R: c(
   person("Gregory", "Popovitch", role = c("aut", "cph"), email = "greg7mdp@gmail.com"),
   person("Google Inc", role = c("aut", "cph")),
@@ -16,7 +16,7 @@ Description: Provides interface to 'sparsepp' - fast, memory efficient hash map.
     memory usage (especially when the final size of the map is not known in advance).
 License: BSD_3_clause + file LICENSE
 Encoding: UTF-8
-URL: https://github.com/greg7mdp/sparsepp, https://github.com/dselivanov/sparsepp
-BugReports: https://github.com/dselivanov/sparsepp/issues
+URL: https://github.com/greg7mdp/sparsepp, https://github.com/dselivanov/r-sparsepp
+BugReports: https://github.com/dselivanov/r-sparsepp/issues
 Suggests: Rcpp
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
