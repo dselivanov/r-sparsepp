@@ -24,12 +24,14 @@ It aims to achieve the following objectives:
 \dontrun{
 library(Rcpp)
 code = "
+// [[Rcpp::plugins(cpp11)]]
 #include <Rcpp.h>
 using namespace std;
 using namespace Rcpp;
 // drop-in replacement for unordered_map
 //#include <unordered_map>
-#include <sparsepp.h>
+#include <sparsepp/spp.h>
+//[[Rcpp::depends(sparsepp)]]
 using spp::sparse_hash_map;
 // @export
 // [[Rcpp::export]]
