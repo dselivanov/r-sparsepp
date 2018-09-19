@@ -1,8 +1,8 @@
 Package: sparsepp
 Type: Package
 Title: 'Rcpp' Interface to 'sparsepp'
-Version: 1.21
-Date: 2018-07-25
+Version: 1.22
+Date: 2018-09-19
 Authors@R: c(
   person("Gregory", "Popovitch", role = c("aut", "cph"), email = "greg7mdp@gmail.com"),
   person("Google Inc", role = c("aut", "cph")),
