@@ -3,3 +3,4 @@
 cran-comments.md
 inst/include/.git
 inst/include/.travis.yml
+update.sh
